@@ -9,9 +9,9 @@ console.log(fahrenheit); // or alert()
 
 
 // 2) Работа с переменными.
-const one   = 1;
-let two     = '2';
-var three   = true;
+const one   =  1;
+let two     =  '2';
+var three   =  true;
 
 
 // 3) Объявить две переменные: admin и name. Записать в name строку "Василий"; Скопировать значение из name в admin. Вывести admin (должно вывести «Василий»).
