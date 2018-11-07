@@ -1,0 +1,32 @@
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.slider {
+  border: 20px solid;
+  border-image: linear-gradient(to bottom, rgb(12, 126, 134) 0%, #dfae2b 100%);
+  border-image-slice: 1;
+  box-shadow: 6px 6px 2px 1px #CDBDB1;
+  margin-top: 100px;
+}
+
+
+.slider img {
+  padding: 5px 5px 0 5px;
+  height: 420px;
+}
