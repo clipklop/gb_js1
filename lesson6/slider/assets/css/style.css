@@ -17,16 +17,55 @@ body {
   flex-wrap: wrap;
 }
 
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.jumbotron img {
+  box-shadow: 6px 6px 2px 1px #CDBDB1;
+  margin-top: 20px;
+  width: 60%;
+  height: 80%; 
+}
+
 .slider {
-  border: 20px solid;
+  border: 6px solid;
   border-image: linear-gradient(to bottom, rgb(12, 126, 134) 0%, #dfae2b 100%);
   border-image-slice: 1;
   box-shadow: 6px 6px 2px 1px #CDBDB1;
-  margin-top: 100px;
+  margin-top: 10px;
+  /* box-sizing: border-box; */
+  /* width:80%; */
+  
 }
 
 
 .slider img {
   padding: 5px 5px 0 5px;
-  height: 420px;
+  height: auto;
+  width: 10%;
+}
+
+.control {
+  padding: 20px;
+}
+
+.control button {
+  padding: 10px;
+  border: none;
+  width: 100px;
+  background-color: darkgray;
+}
+
+.control button:hover {
+  background-color: rgb(12, 126, 134);
+  
+}
+
+.control button:active {
+  background-color: #dfae2b;
+  border: #CDBDB1;
 }
